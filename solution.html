@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<style>
+*{box-sizing:border-box;}
+h1{
+text-align: center;
+color: red;
+}
+@media (min-width:992px)
+{
+.col-lg-4{
+width:32%;
+height:100px;
+background-color:blue;
+float: left;
+margin-left:10px;
+border: 2px solid black;
+}}
+@media (min-width: 768px) and (max-width: 991px)
+{
+.col-md-6{
+width:48%;
+height:100px;
+background-color:blue;
+float: left;
+margin-left:10px;
+border: 2px solid black;
+margin-bottom: 20px;
+}
+.col-md-12{
+width:97%;
+height:100px;
+background-color:blue;
+float: left;
+margin-left:10px;
+border: 2px solid black;
+}
+}
+@media (max-width: 767px)
+{
+.col-xs-12{
+width:96%;
+height:100px;
+background-color:blue;
+float: left;
+margin-left:10px;
+border:2px solid black; 
+margin-bottom:20px;
+}
+}
+.parent{
+background-color: yellow;
+color: black;
+float: right;
+height: 20px;
+width: 60px;
+clear:right;
+text-align:center;
+}
+.parent1{
+background-color: red;
+color: white;
+float: right;
+height: 20px;
+width: 60px;
+clear:right;
+text-align:center;
+}
+.parent2{
+background-color: gray;
+color: black;
+text-align:center;
+float: right;
+height: 20px;
+width: 60px;
+clear:right;
+}
+</style>
+<head>
+<meta chaeset="utf-8">
+<title>module-2-solution</title>
+</head>
+<body>
+<h1>Hello!</h1>
+<div class="row">
+<div class="col-lg-4 col-md-6 col-xs-12">
+<div class="parent">Chicken</div>
+<br>
+<p>Heyy this is the 1st box content hope it will work</p>
+</div>
+<div class="col-lg-4 col-md-6 col-xs-12">
+<div class="parent1">Beef</div>
+<br>
+<p> this is the 2nd content in the website hope its work</p>
+</div>
+
+<div class="col-lg-4 col-md-12 col-xs-12">
+<div class="parent2">Sushi</div>
+<br>
+<p>Hello this is the 3rd content in my flexible website</p>
+
+</div>
+</div>
+</body>
+</html>
